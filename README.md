@@ -1,5 +1,5 @@
 - 👋 Hi, I’m Osborne Oppong
-- 👀 I’m interested in Software developint
+- 👀 I’m interested in Software developing
 - 🌱 I’m currently learning Python language
 - 💞️ I’m looking to collaborate on apps
 - 📫 How to reach me oppongosborne@gmail.com
