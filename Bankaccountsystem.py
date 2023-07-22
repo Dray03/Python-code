@@ -18,7 +18,9 @@ class BankAccount:
     # Instance method Withdrawal
     def withdraw(self, cash):
         self.money = self.money - cash
-        if self.money < cash:
+        if self.money == 0:
+           print("You have no money in your account")
+        elif self.money < cash:
             print("You have less money in your account")
         else:
             print(f"You withdrew ${self.money:,} from your account")
