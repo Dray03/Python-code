@@ -8,12 +8,16 @@ class BankAccount:
         self.money = money
         
     def balance(self):
-            return f'You have ${self.money:,} left in your account'
+        if self.money == 0:
+            print("You have no money in your account")
+        else:
+            print(f'You have ${self.money:,} left in your account')
     
     # Instance method Deposite
     def deposite(self, cash):
         self.money = self.money + cash
-        return f'You deposited ${self.money:,} to your account'
+        self.cash = cash
+        return f'You successfully deposited ${self.cash:,} to your account'
 
     # Instance method Withdrawal
     def withdraw(self, cash):
