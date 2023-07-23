@@ -1,6 +1,6 @@
 - 👋 Hi, I’m Osborne Oppong. I'm a student of Ghana Secondary Technical School(GSTS) at Takoradi, form2. 
 - 👀 I’m interested in Software developing
-- 🌱 I’m currently learning Python language
+- 🌱 I’m currently learning how to use vim
 - 💞️ I’m looking to collaborate on apps
 - 📫 How to reach me: oppongosborne@gmail.com
 
