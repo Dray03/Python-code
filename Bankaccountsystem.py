@@ -13,7 +13,7 @@ class BankAccount:
     # Instance method Deposite
     def deposite(self, cash):
         self.money = self.money + cash
-        return f'You deposite ${self.money:,} to your account'
+        return f'You deposited ${self.money:,} to your account'
 
     # Instance method Withdrawal
     def withdraw(self, cash):
@@ -23,7 +23,8 @@ class BankAccount:
             print("You have less money in your account")
         else:
             self.money = self.money - cash
-            print(f"You withdrew ${self.money:,} from your account")
+            self.cash = cash
+            print(f"You withdrew ${self.cash:,} from your account")
 
     
     
