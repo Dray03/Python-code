@@ -16,8 +16,7 @@ class BankAccount:
     # Instance method Deposite
     def deposite(self, cash):
         self.money = self.money + cash
-        self.cash = cash
-        return f'You successfully deposited ${self.cash:,} to your account'
+        return f'You successfully deposited ${cash:,} to your account'
 
     # Instance method Withdrawal
     def withdraw(self, cash):
