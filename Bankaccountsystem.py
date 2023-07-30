@@ -27,7 +27,7 @@ class BankAccount:
         else:
             self.money = self.money - cash
             self.cash = cash
-            print(f"You withdrew ${self.cash:,} from your account")
+            print(f"You pulled out ${self.cash:,} from your account")
 
     
     
