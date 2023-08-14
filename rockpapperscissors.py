@@ -42,7 +42,7 @@ while playing:
     else:
         print("You lose :(")
         comp_scores += 1
-    print(f'You have {p_scores:} point and the computer has {comp_scores:}')    
+    print(f'You have {p_scores} point and the computer has {comp_scores} point')    
 
     # Give the player the option to play again.
     # Player must press "p" to play again
