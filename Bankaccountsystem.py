@@ -14,7 +14,7 @@ class BankAccount:
             print(f'You have ${self.money:,} left in your account')
     
     # Instance method Deposite
-    def deposite(self, cash):
+    def deposit(self, cash):
         self.money = self.money + cash
         return f'You successfully deposited ${cash:,} to your account'
 
