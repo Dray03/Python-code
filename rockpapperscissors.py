@@ -17,12 +17,12 @@ while playing:
     
     # Prompt the player to select a tool from the above options.
     player = input("Select a tool: ").lower()
-    print(f'Player chose {player:} and computer chose {comp:}')
-    
     
     # Make the computer select tools by itself(randomly).
     # Use random.choice to select a tool from the tuple.
     comp = random.choice(tools)
+    
+    print(f'Player chose {player:} and computer chose {comp:}')
 
     # Compare the player's tool and the computer's tool and decide who wins and who loses.
     if player == comp:
