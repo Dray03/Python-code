@@ -1,4 +1,4 @@
-- 👋 Hi, I’m Osborne Oppong. I'm a student of Ghana Secondary Technical School(GSTS) at Takoradi, form2. 
+- 👋 Hi, I’m Osborne Oppong. I'm a student of Ghana Secondary Technical School(GSTS) at Takoradi. 
 - 👀 I’m interested in Software developing
 - 🌱 I’m currently learning how to use vim
 - 💞️ I’m looking to collaborate on apps
